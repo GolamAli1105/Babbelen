@@ -4,6 +4,9 @@
     <ClCompile Include="E:\Babbelen\Babbelen\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\Babbelen\Babbelen\src\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="E:\Babbelen\Babbelen\CMakeLists.txt" />
