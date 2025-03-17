@@ -1,0 +1,10 @@
+^E:\BABBELEN\BABBELEN\BUILD\CMAKEFILES\FA5DCD3CF343D0B2EC884372CBFFD46F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Babbelen/Babbelen -BE:/Babbelen/Babbelen/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Babbelen/Babbelen/build/Babbelen.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
